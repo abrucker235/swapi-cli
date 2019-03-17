@@ -1,0 +1,1 @@
+protoc -I /home/aaron/workspaces/star-wars-api/swapi swapi.proto --go out=plugins=grpc:swapi
